@@ -40,7 +40,6 @@ function NavImage() {
 
     const handelclickPrev = () => {
         let fig = document.getElementById(pos);
-        //console.log(fig.id);
         if(fig.id == 1){
            fig.className = 'thumnail';
            fig = document.getElementById('4');
