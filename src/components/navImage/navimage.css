@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.radio-button{
+    background:  linear-gradient(233.16deg, #00B0CE -47.28%, rgba(0, 176, 206, 0.3) 73.34%);
+    border-radius: 200px;
+    height: 107px;
+    width: 113px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.radio-button img:hover{
+    cursor: pointer;
+}
+
+.gallery{
+    display: flex;
+    gap: 12px;
+}
+.thumnailSelect{
+    background: linear-gradient(233.16deg, #00B0CE -10.31%, rgba(0, 176, 206, 0.3) 110.31%);
+    border-radius: 30px;
+}
+
+.thumnail{
+    background: linear-gradient(233.16deg, #585a5a28 -10.31%, rgba(135, 137, 138, 0.178) 110.31%);
+    border-radius: 30px;
+}
+
